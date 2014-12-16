@@ -1,6 +1,6 @@
 {
   "name": "pretty-xml",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Pretty print XML on the command line.",
   "main": "index.js",
   "bin": "index.js",
