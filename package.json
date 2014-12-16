@@ -29,5 +29,5 @@
   "engine": {
     "node": ">=0.4.9"
   },
-  "preferGlobal": true
+  "preferglobal": true
 }
