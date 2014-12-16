@@ -12,7 +12,9 @@
     "url": "https://github.com/sirreal/pretty-xml.git"
   },
   "keywords": [
-    "xml"
+    "xml",
+    "cli",
+    "formatting"
   ],
   "author": "sirreal",
   "license": "MIT",
