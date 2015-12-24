@@ -7,9 +7,32 @@ Just a simple wrapper around [pretty data xml](https://github.com/vkiryukhin/pre
 
 Usage
 -----
+### Basic
 ```shell
 echo '<some-xml><some more="here">xml</some></some-xml>' | pretty-xml
 ```
+
+#### Output:
+```
+<some-xml>
+  <some more="here">xml</some>
+</some-xml>
+```
+
+
+### Also allows minification by `--minify` flag
+
+```shell
+echo '<some-xml>
+  <some more="here">xml</some>
+</some-xml>' | pretty-xml --minify
+```
+
+#### Output:
+```
+<some-xml><some more="here">xml</some></some-xml>
+```
+
 
 Installation
 ------------
