@@ -5,7 +5,8 @@
   "main": "index.js",
   "bin": "index.js",
   "scripts": {
-    "test": "jshint index.js"
+    "test": "eslint index.js",
+    "preversion": "npm test"
   },
   "repository": {
     "type": "git",
@@ -31,6 +32,6 @@
   },
   "preferglobal": true,
   "devDependencies": {
-    "jshint": "^2.8.0"
+    "eslint": "^1.10.3"
   }
 }
